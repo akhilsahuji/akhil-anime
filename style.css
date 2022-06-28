@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    height: 10vw;
+    width: 80vw;
+    stroke-dasharray: 1404;
+    animation: 3s fillSvg linear;
+}
+
+@keyframes fillSvg {
+    0%{
+        stroke-dashoffset: 1404;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+    
+}
